@@ -174,7 +174,6 @@ public class CalendarConnector {
 	 * <p>
 	 * Passing the string "default" to any of the string arguments will cause the default value of the respective column to be used.
 	 * <p>
-	 * <b>Reminder:</b> to use escape sequences, two backslashes are needed, not one.
 	 * @param cal <code>GregorianCalendar</code> object corresponding to the date to add the record for.
 	 * @param Time Time of day to create the record for. Examples of accepted formats: 
 	 * "12:00", "12:00:00", "120000" (all meaning noon), "12" (meaning 12 seconds past midnight).
@@ -235,7 +234,6 @@ public class CalendarConnector {
 	 * Passing the string "default" to any of the string arguments (except <code>date</code>) 
 	 * will cause the default value of the respective column to be used.
 	 * <p>
-	 * <b>Reminder:</b> to use escape sequences, two backslashes are needed, not one.
 	 * @param date The date to add the record on.
 	 * @param Time Time of day to create the record for. Examples of accepted formats: 
 	 * "12:00", "12:00:00", "120000" (all meaning noon), "12" (meaning 12 seconds past midnight).
@@ -483,7 +481,6 @@ public class CalendarConnector {
 	 * Passing "default" as an argument will leave the respective column unchanged. 
 	 * At least one column must be changed.
 	 * <p>
-	 * <b>Reminder:</b> to use escape sequences, two backslashes are needed, not one.
 	 * @param id the ID of the record to update.
 	 * @param newDate the new date to update the record to. Follows the format "YYYY-MM-DD".
 	 * @param newTime the new time to update the record to.
@@ -534,7 +531,6 @@ public class CalendarConnector {
 	 * Passing "default" as an argument will leave the respective column unchanged. 
 	 * At least one column must be changed.
 	 * <p>
-	 * <b>Reminder:</b> to use escape sequences, two backslashes are needed.
 	 * @param oldDate the original date of the record to update. Follows the format "YYYY-MM-DD".
 	 * @param newDate the new date to update the record to. Follows the format "YYYY-MM-DD".
 	 * @param newTime the new time to update the record to.
